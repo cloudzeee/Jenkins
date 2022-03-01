@@ -1,0 +1,8 @@
+Jenkins is a CI/CD tool whihc is platform independent
+when different developers are working on a software and make changes to the source code. A bug could occur 
+and it might be pretty difficult to find bug as you would have to check all coudes added that day
+jenkins helps isolate and know when a bug is introduced. As soon a code is commited jenkins takes the code and 
+builds it. a status report is also sent and we can know if it was built successfully or not
+we can also integrate a unit test or integrated test
+-jenkins check the repositries at intervals for any changes. It detects the chabges, pulls these changes and start
+the build proces, if it fails the dev team would be notified. if successful, jenkisn deploy build in the server
